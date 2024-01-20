@@ -7,7 +7,7 @@
 }
 body{
     overflow-x: hidden;
-    background-color: white;
+    background-color: #5cdb95;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -29,14 +29,14 @@ nav .hamb{
     right: 3%;
     top: 30px;
     z-index: 5;
-    background: white;
+    background: #5cdb95;
     position: absolute;
     cursor: pointer;
     display: none;
 }
 nav .hamb span{
     display: block;
-    background: #04d2ff;
+    background: #05386b;
     width: 100%;
     height: 3px;
     transition: .3s;
@@ -48,17 +48,21 @@ nav .hamb span:nth-chi1d(2){
 header{
     padding: 35px;
     display: flex;
-    background-color: #04d2ff;
+    background-color: #05386b;
     height: fit-content;
-    flex-wrap: nowrap;
+    flex-wrap:nowrap;
     align-items: center;
     justify-items: center;
+    box-shadow: 4px 5px 17px -4px black;
+}
+header h1{
+    color: white;
 }
 
 p {
     margin: 0;
     padding: 0;
-    color: black;
+    color: #05386b;
     transition: color 0.3s;
 }
 
@@ -66,8 +70,8 @@ p {
     background-color: white;
     position: absolute;
     padding: 15px;
-    border: 2px solid black;
-    border-color: #04d2ff;
+    border: 2px solid;
+    border-color: #05386b;
     border-radius: 15px;
     width: fit-content;
 }
@@ -83,35 +87,35 @@ nav .nav-list li{
 }
 nav .nav-list li a{
     display: inline-block;
-    color: black;
+    color: white;
     margin-right: 30px;
     font-size: 15px;
     font-weight: 600;
 }
 nav .nav-list li:not(:last-child) a:hover{
     text-decoration:overline;
-    color: black;
+    color: white;
     transition: .4s;
 }
 nav .nav-list li.btn a{
     display: inline-block;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 9px 28px;
     border-radius: 30px;
     line-height: 1.3;
-    color: black;
+    color: white;
     font-weight: 500;
 }
 nav .nav-list li.btn:hover a{
-    background: black;
-    color: #04d2ff;
+    background: white;
+    color: #05386b;
     border: 2px solid transparent;
     transition: .4s;
 }
 .container{
     padding: 9%;
-    align-items: center;
+    align-items:center;
 }
 .container .hero-text{
     margin:0 auto;
@@ -121,17 +125,17 @@ nav .nav-list li.btn:hover a{
     text-align: center;
 }
 .container .hero-text h1{
-    color: black;
+    color: #05386b;
     font-size: 85px;
     font-weight: 900;
     line-height: 1.2;
     margin: 20px 0px 20px;
 }
 span{
-    color: #04d2ff;
+    color: black;
 }
 .container .hero-text h3{
-    color: black;
+    color: #05386b;
     font-weight: 400;
     font-size: 17px;
     margin-bottom: 20px;
@@ -152,7 +156,7 @@ span{
     align-items: center;
     justify-content: center;
     font-size: 17px;
-    color: black;
+    color: white;
     cursor: pointer;
     margin-right: 20px;
     background-color: rgba(255,255,255,0.1);
@@ -160,29 +164,50 @@ span{
 }
 .social a:hover{
     transform: scale(1.1);
-    background: black;
-    color: #04d2ff;
+    background: white;
+    color: #05386b;
     transition: .4s;
 }
-.container .hero-text button{
-    color: black;
-    background: transparent;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    padding: 8px 30px;
-    border: 2px solid;
-    border-color: #04d2ff;
-    border-radius: 30px;
+.container .hero-text button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #5cdb95;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     cursor: pointer;
-}
-.container .hero-text button:hover{
-    background: transparent;
-    background-color: #04d2ff;
-    border: 2px solid #04d2ff;
+    color: #05386b;
+    transition: all 1000ms;
+    font-size: 12px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #05386b;
+  }
+  
+  .container .hero-text button:hover {
     color: white;
-    transition: .4s;
-}
+    transform: scale(1.1);
+    outline: 2px solid #05386b;
+    box-shadow: 4px 5px 17px -4px #05386b;
+  }
+  
+  .container .hero-text button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #05386b;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  .container .hero-text button:hover::before {
+    width: 250%;
+  }  
 .bottom{
     margin-top: 243px;
     padding-bottom: 40px;
@@ -195,11 +220,12 @@ span{
 .about{
     border: solid;
     border-radius: 12px;
-    border-color: #04d2ff;
+    border-color: #05386b;
+    background-color: white;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 15px;
-    box-shadow: 50px;
+    box-shadow: 4px 5px 17px -4px black;
     width: fit-content;
     height: fit-content;
     margin: 20px;  
@@ -211,11 +237,12 @@ span{
 .experience{
     border: solid;
     border-radius: 12px;
-    border-color: #04d2ff;
+    border-color: #05386b;
+    background-color: white;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 15px;
-    box-shadow: 50px;
+    box-shadow: 4px 5px 17px -4px black;
     width: fit-content;
     height: fit-content;
     margin: 20px;  
@@ -227,11 +254,12 @@ span{
 .projects{
     border: solid;
     border-radius: 12px;
-    border-color: #04d2ff;
+    border-color: #05386b;
+    background-color: white;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 15px;
-    box-shadow: 50px;
+    box-shadow: 4px 5px 17px -4px black;
     width: fit-content;
     height: fit-content;
     margin: 20px;  
@@ -246,11 +274,12 @@ span{
 .certi{
     border: solid;
     border-radius: 12px;
-    border-color: #04d2ff;
+    border-color: #05386b;
+    background-color: white;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 15px;
-    box-shadow: 50px;
+    box-shadow: 4px 5px 17px -4px black;
     width: fit-content;
     height: fit-content;
     margin: 20px;  
@@ -260,13 +289,14 @@ span{
     color: black;
 }
 .contact {
-    background-color: #04d2ff;
-    color: black;
+    background-color: #05386b;
+    color: white;
     padding: 40px 50px 50px 50px ;
+    box-shadow: 4px -1px 17px 4px black;
     margin-bottom: -10px;
 }
 .contact p{
-    color: black;
+    color: white;
     font-size: 15px;
 }
 .container-copy{
@@ -302,11 +332,12 @@ span{
         bottom: 0;
         width: 60%;
         height: 13%;
-        background: #04d2ff;
+        background: #05386b;
         z-index: 2;
         padding: 6% 9%;
         transition: .3s right;
         border-radius: 10px;
+        border-color: #05386b;
     }
     nav .nav-list li{
         display: block;
