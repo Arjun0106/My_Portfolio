@@ -162,12 +162,12 @@ span{
 .conn-image {
     margin-left: 10px;
     margin-top: 10px;
-    margin-bottom: -140px;/* Adjust the space between the section and the image */
+    margin-bottom: -140px;
 }
 
 .conn-image img {
-    width: 145px; /* Adjust the image size as needed */
-    height: 145px; /* Maintain aspect ratio */
+    width: 145px;
+    height: 145px;
 }
 .social{
     margin-left: 190px;
@@ -329,14 +329,14 @@ span{
     color: white;
 }
 .certi-image {
-    margin-left: 900px;
-    margin-top: -575px;
-    margin-bottom: 40px; /* Adjust the space between the section and the image */
+    margin-left: 890px;
+    margin-top: -680px;
+    margin-bottom: 135px;
 }
 
 .certi-image img {
-    width: 350px; /* Adjust the image size as needed */
-    height: 550px; /* Maintain aspect ratio */
+    width: 380px;
+    height: 580px;
 }
 .contact {
     background-color: #090839;
@@ -356,12 +356,12 @@ span{
 .con-image {
     margin-left: 1125px;
     margin-top: -200px;
-    margin-bottom: 80px; /* Adjust the space between the section and the image */
+    margin-bottom: 80px;
 }
 
 .con-image img {
-    width: 100px; /* Adjust the image size as needed */
-    height: 100px; /* Maintain aspect ratio */
+    width: 100px;
+    height: 100px;
 }
 .container-copy{
     display: flex;
