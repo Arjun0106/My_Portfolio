@@ -50,10 +50,14 @@ header{
     display: flex;
     background-color: #090839;
     height: fit-content;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-items: center;
     box-shadow: 4px 5px 17px -4px black;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
 }
 header h1{
     color: white;
@@ -125,7 +129,7 @@ nav .nav-list li.btn:hover a{
     transition: .4s;
 }
 .container{
-    padding: 9%;
+    padding: 17%;
     align-items:center;
 }
 .container .hero-text{
@@ -246,7 +250,7 @@ span{
     border-radius: 12px;
     border-color: #090839;
     background-color: white;
-    padding: 10px;
+    padding: 100px;
     font-size: 18px;
     border-radius: 15px;
     box-shadow: 4px 5px 17px -4px black;
@@ -267,7 +271,7 @@ span{
     border-radius: 12px;
     border-color: #090839;
     background-color: white;
-    padding: 10px;
+    padding: 100px;
     font-size: 18px;
     border-radius: 15px;
     box-shadow: 4px 5px 17px -4px black;
@@ -288,7 +292,7 @@ span{
     border-radius: 12px;
     border-color: #090839;
     background-color: white;
-    padding: 10px;
+    padding: 100px;
     font-size: 18px;
     border-radius: 15px;
     box-shadow: 4px 5px 17px -4px black;
@@ -312,7 +316,7 @@ span{
     border-radius: 12px;
     border-color: #090839;
     background-color: white;
-    padding: 10px;
+    padding: 100px;
     font-size: 18px;
     border-radius: 15px;
     box-shadow: 4px 5px 17px -4px black;
@@ -329,14 +333,14 @@ span{
     color: #090839;
 }
 .certi-image {
-    margin-left: 890px;
-    margin-top: -670px;
+    margin-left: 990px;
+    margin-top: -870px;
     margin-bottom: 135px;
 }
 
 .certi-image img {
     width: 380px;
-    height: 580px;
+    height: 780px;
 }
 .contact {
     background-color: #090839;
