@@ -250,7 +250,10 @@ span{
     border-radius: 12px;
     border-color: #090839;
     background-color: white;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 18px;
     border-radius: 15px;
     box-shadow: 4px 5px 17px -4px black;
@@ -271,7 +274,10 @@ span{
     border-radius: 12px;
     border-color: #090839;
     background-color: white;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 18px;
     border-radius: 15px;
     box-shadow: 4px 5px 17px -4px black;
@@ -292,7 +298,10 @@ span{
     border-radius: 12px;
     border-color: #090839;
     background-color: white;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 18px;
     border-radius: 15px;
     box-shadow: 4px 5px 17px -4px black;
@@ -316,7 +325,10 @@ span{
     border-radius: 12px;
     border-color: #090839;
     background-color: white;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 18px;
     border-radius: 15px;
     box-shadow: 4px 5px 17px -4px black;
@@ -333,7 +345,7 @@ span{
     color: #090839;
 }
 .certi-image {
-    margin-left: 990px;
+    margin-left: 900px;
     margin-top: -870px;
     margin-bottom: 135px;
 }
@@ -358,7 +370,7 @@ span{
     margin-left: 190px;
 }
 .con-image {
-    margin-left: 1125px;
+    margin-left: 1060px;
     margin-top: -200px;
     margin-bottom: 80px;
 }
